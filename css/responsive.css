@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+
+  .extra-small-padding-top{
+    padding-top: 30px;
+  }
+  .extra-small-margin-top{
+    margin-top: 30px;
+  }
+  .extra-small-padding-bottom{
+    padding-bottom: 30px;
+  }
+  .extra-small-margin-bottom{
+    margin-bottom: 30px;
+  }
+  .extra-small-text-center{
+    text-align: center;
+  }
+  .extra-small-form-margin-top{
+    margin-top: 25px;
+  }
+  
+}
