@@ -51,7 +51,7 @@ body{
 .bridal-margin-bottom{
   margin-bottom: 80px;
 }
-.header-bottom h2, .package h2{
+.header-bottom h2, .package h2, .faq h2{
   font-weight: 600;
   font-size: 38px;
   color: #0A0826;
@@ -97,4 +97,8 @@ body{
   font-size: 10px;
   top: -15px;
   right: 30px;
+}
+.faq-accordion h2 button{
+  font-weight: 500;
+  font-size: 20px;
 }
