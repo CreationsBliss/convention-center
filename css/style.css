@@ -111,6 +111,23 @@ body{
 .contact-form input{
   padding: 13px 13px;
 }
+.bridal-toast{
+  right: 0;
+  bottom: 10%;
+}
+.bridal-toast-width{
+  width: 250px;
+  border-left: 5px solid #3F87F5;
+}
+.bridal-toast-width i{
+  color: var(--btn-text-color);
+  padding-right: 10px;
+}
+.bridal-toast-close{
+  width: 5px;
+  height: 5px;
+  margin-top: -10px;
+}
 footer{
   background: var(--footer-bg-color);
   color: var(--footer-text-color);
