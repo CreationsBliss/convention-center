@@ -17,45 +17,33 @@
   --font-weight-bold: 700;
   --footer-bg-color: #0B0D17;
   --footer-text-color: #D9DBE1;
+  --general-line-height: 30px;
 }
 body{
   font-family: 'Poppins', sans-serif;
 }
-/* .bridal-nav{
-  height: 80px;
-} */
 .navigation-brand{
   font-family: Poppins;
   font-size: 22px;
 }
 .navitem-font-weight{
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
 }
-/* .bridal-header-slider{
-  min-height: calc(100vh - 80px);
-} */
-/* .bridal-slider-1{
-  min-height: calc(100vh - 80px);
-  background-image: url(../images/banner.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
 .bridal-slider h5{
-  font-weight: 600;
+  font-weight: var(--font-weight-semi-bold);
   font-size: 48px;
 }
 .bridal-slider h5{
-  font-weight: 600;
+  font-weight: var(--font-weight-semi-bold);
   font-size: 48px;
 }
 .bridal-slider p{
-  font-weight: 300;
+  font-weight: var(--font-weight-light);
   font-size: 16px;
 }
 .bridal-slider a{
   color: var(--btn-text-color);
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
 }
 .bridal-slider-indicator [data-bs-target]{
   width: 50px;
@@ -67,12 +55,12 @@ body{
   margin-bottom: 80px;
 }
 .header-bottom h2, .package h2, .faq h2{
-  font-weight: 600;
+  font-weight: var(--font-weight-semi-bold);
   font-size: 38px;
   color: #0A0826;
 }
 .header-bottom a{
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
 }
 .header-bottom i{
   padding-left: 10px;
@@ -117,8 +105,11 @@ body{
   right: 30px;
 }
 .faq-accordion h2 button{
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   font-size: 20px;
+}
+.bridal-lh{
+  line-height: var(--general-line-height);
 }
 .contact-icon i{
   font-size: 25px;
