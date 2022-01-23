@@ -104,6 +104,13 @@ body{
   font-weight: 500;
   font-size: 20px;
 }
+.contact-icon i{
+  font-size: 25px;
+  padding-right: 15px;
+}
+.contact-form input{
+  padding: 13px 13px;
+}
 footer{
   background: var(--footer-bg-color);
   color: var(--footer-text-color);
