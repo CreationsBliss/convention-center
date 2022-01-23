@@ -6,6 +6,15 @@
 :root{
   --logo-color: #3E3E3E;
   --btn-text-color: #3F87F5;
+  --package-btn-color: #f496d142;
+  --premium-package-color: #ffffff;
+  --premiun-package-btn-color: #ffffff;
+  --hot-text-bg: #FF4E4E;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
 }
 body{
   font-family: 'Poppins', sans-serif;
@@ -35,4 +44,57 @@ body{
 }
 .bridal-slider-indicator [data-bs-target]{
   width: 50px;
+}
+.bridal-margin-top{
+  margin-top: 100px;
+}
+.bridal-margin-bottom{
+  margin-bottom: 80px;
+}
+.header-bottom h2, .package h2{
+  font-weight: 600;
+  font-size: 38px;
+  color: #0A0826;
+}
+.header-bottom i{
+  padding-left: 10px;
+}
+.package-detail ul{
+  padding: 0;
+}
+.package-detail ul li{
+  list-style: none;
+}
+.package-detail ul li i{
+  color: var(--btn-text-color);
+  display: inline-block;
+  padding-right: 5px;
+}
+.package-detail a{
+  background-color: var(--package-btn-color);
+  color: var(--btn-text-color);
+  font-weight: var(--font-weight-medium);
+}
+.premium-plan{
+  border-radius: 20px;
+  color: var( --premium-package-color);
+}
+.premium-plan h2{
+  color: var(--premium-package-color);
+}
+.premium-plan ul li i{
+  color: var(--premium-package-color);
+}
+.premium-plan  a{
+  background-color: var(--premiun-package-btn-color);
+  color: var(--btn-text-color);
+  font-weight: var(--font-weight-medium);
+}
+.hot-package-text{
+  background: var(--hot-text-bg);
+  width: 25px;
+  height: 16px;
+  font-size: 10px;
+  top: -15px;
+  right: 30px;
 }
