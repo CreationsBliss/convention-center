@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --logo-color: #3E3E3E;
+  --btn-text-color: #3F87F5;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.navigation-brand{
+  font-family: Poppins;
+  font-size: 22px;
+}
+.navitem-font-weight{
+  font-weight: 500;
+}
+.bridal-slider h5{
+  font-weight: 600;
+  font-size: 48px;
+}
+.bridal-slider h5{
+  font-weight: 600;
+  font-size: 48px;
+}
+.bridal-slider p{
+  font-weight: 300;
+  font-size: 16px;
+}
+.bridal-slider a{
+  color: var(--btn-text-color);
+  font-weight: 500;
+}
+.bridal-slider-indicator [data-bs-target]{
+  width: 50px;
+}
